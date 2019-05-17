@@ -1,0 +1,96 @@
+
+/*
+
+.hplogoclass {
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+*/
+
+
+/*
+#Navigation-bar-div ul li a {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: -16px -19px 20px 51px;
+    margin: 17px 0px 0px -281px;
+}
+*/
+
+body{
+   background-image: url('img/random.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 90vh;
+    font-family: monospace;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-header-div{
+    background-color: black;
+       padding: 15px 30px;
+}
+
+
+.navbar-header-div:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.logo {
+    width: 11%;
+    height: 64px;
+    
+}
+
+.navbar-header-div ul li a{
+     text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 3vh;
+    
+}
+
+.logo-li{
+    margin-top: 10px;
+}
+.nav-bar-ul{
+        float: left;
+}
+.navbar-login-ul{
+    float: right;
+    }
+
+.nav-bar-ul li {
+    padding: 23px 43px 10px 51px;
+    display: inline;
+}
+.navbar-login-ul li{
+    padding-left: 47%;
+    display: inline;
+}
+.welcome-to-future-div h1{
+    color: white;
+    font-weight: bold;
+     font-size: 5vh;
+    display: inline-block;
+    padding: 0;
+    margin-top: 23%;
+    margin-left: 3%;
+
+}
+.future-h1{
+color: red !important;
+    
+}

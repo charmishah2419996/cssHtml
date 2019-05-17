@@ -1,0 +1,141 @@
+#Navigation-bar-div{
+	position: relative;
+	background-color: black;
+	color: #f0f8ff;
+	padding: 10px 15px;
+}
+
+body {
+	font-family: monospace;
+  }
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#Navigation-bar-div ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+#Navigation-bar-div ul li a {
+	display: block;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	margin: 5px;
+}
+
+#Navigation-bar-div ul {
+	float: left;
+}
+
+.logo {
+font-size: 26px !important;
+}
+
+.user-icon {
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+#Navigation-bar-div ul.login {
+	float: right;
+}
+
+#Navigation-bar-div::after{
+	clear: both;
+	display: block;
+	content: '';
+}
+
+/* #nav-item-logo-span{
+	position: absolute;
+    top: 28%;
+	left: 3%;
+	font-weight:bold;
+	font-size: 4vh;
+}
+
+#nav-item-home-span{
+	position: absolute;
+    top: 35%;
+	left: 14%;
+	font-weight:bold;
+	font-size: 3vh;
+}
+#nav-item-about-span{
+	position: absolute;
+    top: 35%;
+	left: 23%;
+	font-weight:bold;
+	font-size: 3vh;
+}
+#nav-item-contact-span{
+	position: absolute;
+    top: 35%;
+	left: 32%;
+	font-weight:bold;
+	font-size: 3vh;
+} */
+#nav-item-icon-span{
+	position: absolute;
+    top: 30%;
+	left: 90%;
+	height: 1px;
+
+}
+#nav-item-login-span{
+	position: absolute;
+    top: 35%;
+	left: 92%;
+	font-weight:bold;
+	font-size: 3vh;
+}
+body{
+	background-image: url('img/random.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 90vh;
+}
+
+#Wellcome-to-future-div{
+	font-weight:bold;
+	color: whitesmoke;
+	position: absolute;
+	top: 55%;
+	left: 7%;
+	font-size: 6vh;
+
+}
+#future-span{
+	color: red;
+}
+
+#Pera-div{
+	color: whitesmoke;
+	position: absolute;
+	top: 65%;
+	left: 7%;
+	width: 45%;
+	text-transform: uppercase;
+	font-size: 3vh;
+	font-weight:bold;
+}
+#buttonrn{
+	font-weight:bold;
+	background-color: black;
+    color: antiquewhite;
+    position: absolute;
+    top: 85%;
+    left: 7%;
+    height: 55px;
+    width: 18%;
+    font-size: 3vh;
+    border: none;
+}
+

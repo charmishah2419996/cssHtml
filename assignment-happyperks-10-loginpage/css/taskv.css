@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: "sans-serif";
+    background-color: black;
+
+}
+
+.main-div--wrapper{
+    background-image: url('../img/1.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    margin-top: 50px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+    position: relative;
+    }
+.main-div--content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+ 
+    transform: translate(-50%,-50%);
+   
+    
+    
+}
+.left-div{
+    float: left;
+}
+.left-div::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.letty{
+    font-size: 8vh;
+    font-weight: bold;
+  
+}
+
+.span-shop{
+    color:#f6e125;
+    font-size: 8vh;
+    font-weight: bold;
+   
+}
+.h4-title{
+    margin-top: 100px;
+}
+.left-div h4{
+    line-height: 30px;
+    font-size: 5vh;
+}
+.h5-title{
+    margin-top: 100px;
+}
+.h5-title-sec{
+    margin-top: 70px;
+}
+.right-div{
+    background-color: white;
+    color: black;
+     width: 35%;
+    float: right;
+    padding: 35px;
+    text-align: center;
+    border-radius: 5px;
+}
+.right-div::after{
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+.right-div input{
+      border: 1px solid #e4dede;
+    background-color: white;
+    border-radius: 7px;
+    padding: 13px;
+    width: 246px;
+
+   margin-top: 23px;
+
+}
+.right-div button{
+      border: 1px solid #e4dede;
+    background-color: white;
+    border-radius: 7px;
+        padding: 12px 13px;
+    width: 264px;
+    margin-top: 23px;
+    position: relative;
+    
+}
+.right-div .fa{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 3vh;
+    color: blue;
+}
+.right-div img{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+   
+}
+.grey-color{
+    color:grey;
+}
+.margin-left-class{
+font-weight: bold;
+    font-size: 3vh;
+}
+
+
+.right-div .btn{
+    border: 2px solid #f8dd56;
+    background-color: #ffd91ae6;
+    border-radius: 7px;
+     padding: 12px 24px;
+    width: 271px;
+    color: black;
+    margin-top: 17px;
+   
+}
+.right-div h3{
+    margin-top: 10px; 
+
+}
+.right-div hr{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    
+}

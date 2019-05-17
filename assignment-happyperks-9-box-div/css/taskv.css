@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: "sans-serif";
+
+}
+.nav-header-content{
+     background-image: url(https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1394&q=80);
+    color: white;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30%;
+       background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-header-inside-div{
+  
+    position: absolute;
+    top:35%;
+    left: 45%;
+    
+}
+.main-container{
+    color: white;
+}
+.main-container-inside-div{
+    width: 50%;
+    height: 250px;
+   float: left;
+     position: relative;
+     background-color: aqua;
+    border: 1px solid white;
+  box-sizing: border-box;
+    
+}
+
+
+.firstdiv{
+     background-image: url(https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.third-div{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-m-18XsbYjNQKkHoLzKs6wz-Jr-13Wx97fubMmnPIWrszLHa_1A");
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.foruth-div{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiMwtH38cqkSrHTEj_GprT9NdcvIFHaDAuSso6YK0_kCllUMXC");
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-ul-navigate{
+    margin-right: 70px;
+}
+.secound-div{
+    background-image: url("https://media.gettyimages.com/photos/arch-bridge-in-kromlau-picture-id539121576?s=612x612");
+     background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.sec-ul-social{
+    margin-right: 150px;
+}
+
+
+.div-2-bg-img{
+    background-image: url(https://images.pexels.com/photos/236047/pexels-photo-236047.jpeg?cs=srgb&dl=clouds-cloudy-farm-236047.jpg&fm=jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+.firstdiv button{
+    background-color: aliceblue;
+    padding:7px 10px;
+    border: none;
+    
+}
+.firstdiv input{
+    padding: 7px;
+    border: none;
+    background-color: black;
+    opacity: 0.5;
+}
+.firstdiv h3{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.firstdiv h6{
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+.firstdiv h5{
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+.sub-container-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 275px;
+    
+}
+.main-container::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.sub-div-padding{
+   width: 25%;
+    text-align: center;
+   
+}
+.sub-div-padding h2{
+    margin-bottom: 5px;
+}
+.div-6{
+    text-align: center;
+   
+}
+.div-6 img{
+    width:50px;
+    height:50px;
+}
+.div-6 button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 7px;
+    font-weight: bold;
+}
+.div-6 h2{
+    margin-bottom: 5px;
+}
+.div-6 h5{
+    margin-bottom: 13px;
+}
+.div-9 button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 7px;
+    font-weight: bold;
+}
+.div-9{
+    text-align: center;
+}
+.div-9 h2{
+    margin-bottom: 10px;
+}
+.div-9 h3{
+    margin-bottom: 5px;
+}
+.div-9 h5{
+    margin-bottom: 15px;
+}
+.div-third-load-more{
+     text-align: center;
+    background-color: chartreuse;
+   padding: 40px 0;
+    border-bottom: 1px solid white;
+/*    height: 100%;*/
+/*    position: relative;*/
+  
+}
+.div-third-load-more button{
+     border: none;
+    background: none;
+/*
+    position:absolute;
+    top: 10px;
+*/
+    
+    margin: 10px 10px;
+    color: white;
+    font-weight: bold;
+}
+.div-fourth{
+     background-color: black;
+    opacity: 0.8;
+    padding: 60px 15px;
+    color: white;
+ 
+    
+}
+.sub-div-forth{
+    display: flex;
+    justify-content: center;
+    
+}
+.nav-header-content button{
+  background: none;
+    border: none;
+    color: grey;
+    float: right;
+   
+}
+.sub-div-forth input{
+   padding: 7px;
+    border: none;
+    background-color: white;
+    opacity: 0.3;
+
+}
+.sub-div-forth button{
+ background-color: aliceblue;
+    padding:7px 10px;
+    border: none;
+}
+.left-div{
+    width: 25%;
+}
+.left-div h5{
+    margin-top: 7px;
+    opacity: 0.5;
+}
+.right-div{
+    margin-top: 2%;
+}
+.div-fifth{
+    background-color: #d3c9c9;
+   display: flex;
+    justify-content: center;
+    padding-left: 7%;
+    
+}
+.sub-fifth-div{
+    width: 50%;
+
+    padding: 20px 0;
+    display: flex;
+}
+.sub-fifth-div li{
+    list-style: none;
+    padding: 4px;
+}
+.sub-fifth-div li a{
+    text-decoration: none;
+    color: dimgrey;
+    
+    padding: 4px;
+}
+.sub-fifth-div img{
+    width: 30px;
+    height: 30px;
+}
+.firstli{
+    color: black !important;
+      }
+.fifth-sub-left-img-div{
+    display: flex;
+    
+}
+.fifth-sub-left-img-div{
+    float: left;
+}
+.fifth-sub-right-img-div{
+    text-align: right;
+    color: dimgrey;
+   
+}

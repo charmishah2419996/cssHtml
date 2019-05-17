@@ -1,0 +1,158 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-weight: bold;
+        font-family: sans-serif;
+}
+
+.main-div{
+    margin: 193px auto;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    flex: 1;
+    height: 348px;
+    box-shadow: 0 0 10px 2px;
+        }
+
+.main-div div{
+    width: calc(100% / 2);
+}
+
+.img-span{
+    background-image: url('img/girlwithlaptop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 36px;
+}
+.login-div{
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.login-div h3{
+    margin-top: 69px;
+    margin-left: 79px;login-div
+}
+.login-div input{
+    border: 2px solid white;
+    background-color: blue;
+    border-radius: 14px;
+    padding: 13px;
+    width: 217px;
+    margin-left: 53px;
+    margin-top: 23px;
+    
+}
+.btn{
+    font-size: 3vh;
+    font-weight: bold;
+    width: 237px;
+    margin-left: 53px;
+    margin-top: 33px;
+    border: none;
+    background-color: white;
+    text-align: center;
+    color: blue;
+    border-radius: 19px;
+    padding: 12px;
+    padding-left: 28px;
+    padding-right: 38px;
+}
+::-webkit-input-placeholder{
+    color:white;
+}*/
+
+
+.title{
+    text-align: center;
+    padding: 50px 0 20px;
+}
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #262626;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.container{
+    width: 50%;
+    height: 400px;
+    
+/*    div ko center lane ke liye*/
+    
+    position: absolute;
+     top:50%;
+    left:50%;
+/*    yahape top and left jo he wo div ke corner se lega but abhi hame uske div ke center se lana he to use transfrom property*/
+/*    transform: translate(-50%,-50%);*/
+   
+   box-shadow: 0 0 10px 2px;
+    
+    }
+.container .left{
+    float: left;
+    width: 50%;
+    height: 400px;
+    
+    background-image: url(img/girlwithlaptop.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.container .right{
+    float: right;
+    width: 50%;
+    height: 400px;
+   background: blue;
+    box-sizing: border-box;
+}
+.form-box{
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: 400px;
+   
+   
+}
+.form-box p{
+   
+    margin-bottom: 23px;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+}
+.form-box input[type=text],.form-box input[type=password]{
+     border-radius: 33px;
+    border: 2px solid white;
+    padding: 20px; 
+    width: 200px;
+    height: 9px;   
+    background-color: blue;
+    
+}
+form{
+    text-align: center;
+}
+.form-box input{
+   
+    margin-bottom: 20px;
+}
+.btn{
+     border-radius: 33px;
+    border: 2px solid white;
+    padding: 20px; 
+    width: 240px;
+      
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    font-size: 3vh;
+}
+::-webkit-input-placeholder{
+    color:white;
+}

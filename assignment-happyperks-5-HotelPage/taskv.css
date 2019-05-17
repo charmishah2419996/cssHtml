@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-image: url(img/imageLaptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.nav-item-class::after{
+content: '';
+clear: both;
+display: block;
+}
+.nav-item-class{
+background-color: black;
+padding:39px 35px;
+opacity: 0.7;
+  
+}
+
+
+.nav-item-class ul li{
+    display: inline-block;
+    list-style: none;
+/*    padding: 30px;*/
+}
+.nav-item-class a{
+    text-decoration:none;
+    color: white;
+    padding: 20px;
+    font-size: 3vh;
+}
+.nav-item-ul-logo{
+    float: left;
+font-weight: bold;
+
+}
+.nav-item-ul-menu{
+  float: right;
+}
+.sec-div{
+    width: 100%;
+    position: relative;
+     height: 656px; 
+    
+}
+.sec-div-wrapper{
+    border: 1px solid white;
+    width: 40%;
+    height: 170px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    color: white;
+    padding: 50px;
+    
+}
+.sec-div-wrapper h1{
+    font-size: 5vh;   
+}
+.sec-div-wrapper h5{
+    margin-top: 30px;
+    opacity: 0.7;
+}
+.h1h2class{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
